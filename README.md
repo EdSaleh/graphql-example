@@ -1,0 +1,1 @@
+# Simple Nodejs project using GraphQL, SQLite, Prisma2, TypeScript for User registration, login, and posting.
