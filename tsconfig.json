@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
+    "skipLibCheck": true,
     "outDir": "dist",
     "rootDir": "src",
-    "lib": ["esnext"],
+    "lib": ["esnext", "DOM"],
     "strict": true, 
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "esModuleInterop": true
   },
   "include": ["src/**/*"]
 }
